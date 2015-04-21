@@ -53,6 +53,35 @@ public class ExtraCellularProperties : MonoBehaviour
         ExtraCellularProperties objProps = (ExtraCellularProperties)this.GetComponent("ExtraCellularProperties");
         changeState(objProps.isActive);
     }
+	private void Update()
+	{
+		if (this.isActive == false) {
+			this.allowMovement = false;
+			foreach (Transform child in this.transform)
+			{
+				if (child.name == "Extracellular Signal Body")
+				{
+					child.GetComponent<Renderer>().material.color = NonActiveColor;
+					break;
+				}
+			}
+		}
+		if (this.allowMovement == false) {
+			this.GetComponent<ReceptorPathfinding> ().enabled = false;
+		}
+		if (this.isActive == true) {
+			this.allowMovement = true;
+			this.GetComponent<ReceptorPathfinding> ().enabled = true;
+			foreach (Transform child in this.transform)
+			{
+				if (child.name == "Extracellular Signal Body")
+				{
+					child.GetComponent<Renderer>().material.color = ActiveColor;
+					break;
+				}
+			}
+		}
+	}
 
     #endregion Private Methods
 }
