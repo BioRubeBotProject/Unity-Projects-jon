@@ -1,16 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ReceptorLegScript.cs">
     <Files>
-      <File FileName="Assets\ReceptorPathfinding.cs" Line="86" Column="31" />
-      <File FileName="Assets\ATPpathfinding.cs" Line="84" Column="4" />
-      <File FileName="Assets\ReceptorLegProperties.cs" Line="28" Column="5" />
-      <File FileName="Assets\Scripts\ExtraCellularProperties.cs" Line="69" Column="37" />
-      <File FileName="Assets\Scripts\ExternalReceptorProperties.cs" Line="5" Column="2" />
-      <File FileName="Assets\ATPproperties.cs" Line="86" Column="5" />
-      <File FileName="Assets\Scripts\receptorScript.cs" Line="37" Column="9" />
-      <File FileName="Assets\ATPscript.cs" Line="7" Column="2" />
-      <File FileName="Assets\ReceptorLegScript.cs" Line="18" Column="41" />
+      <File FileName="Assets\ReceptorLegScript.cs" Line="23" Column="38" />
+      <File FileName="Assets\ReceptorLegProperties.cs" Line="67" Column="30" />
+      <File FileName="Assets\ATPproperties.cs" Line="57" Column="69" />
+      <File FileName="Assets\ATPpathfinding.cs" Line="80" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

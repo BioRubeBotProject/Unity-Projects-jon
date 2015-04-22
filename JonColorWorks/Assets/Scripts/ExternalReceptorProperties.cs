@@ -45,7 +45,7 @@ public class ExternalReceptorProperties : MonoBehaviour
 
     private void Start()
     {
-        changeState(false);
+        changeState(true);
     }
 
     #endregion Private Methods

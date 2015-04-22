@@ -12,7 +12,7 @@ public class ATPpathfinding : MonoBehaviour {
 	public Transform sightStart;
 	public int speed = 100;
 	public bool spotted = false;
-	
+	public bool droppedOff = false;
 	#endregion Public Fields + Properties + Events + Delegates + Enums
 	
 	#region Private Fields + Properties + Events + Delegates + Enums
@@ -78,8 +78,13 @@ public class ATPpathfinding : MonoBehaviour {
 	// Update is called once per frame 
 	private void Update()
 	{
-		Raycasting();
-		if (!spotted)
+		if (droppedOff) {
+			spotted = false;
+		}
+		else{
+			Raycasting ();
+		}
+		if (!spotted )
 		{
 			Roam();
 		}

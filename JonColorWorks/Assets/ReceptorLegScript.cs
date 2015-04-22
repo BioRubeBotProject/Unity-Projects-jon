@@ -9,6 +9,7 @@ public class ReceptorLegScript : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "ATP")
 		{
+
 			ReceptorLegProperties objProps = (ReceptorLegProperties)this.GetComponent("ReceptorLegProperties");
 			objProps.isActive = false;
 			other.GetComponent<ATPproperties>().changeState(false);
@@ -16,6 +17,10 @@ public class ReceptorLegScript : MonoBehaviour {
 			yield return new WaitForSeconds(3);
 			Transform tail = other.transform.FindChild ("Tail");
 			tail.transform.SetParent (transform);
+			objProps.GetComponent<CircleCollider2D>().isTrigger = false;
+
+			other.GetComponent<ATPproperties>().changeState(true);
+			other.gameObject.tag = "Untagged";
 		}
 	}
 	// Use this for initialization

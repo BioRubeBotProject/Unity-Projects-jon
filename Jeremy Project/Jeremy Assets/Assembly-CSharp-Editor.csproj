@@ -90,19 +90,19 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/MathCSLab3/Desktop/Projects-master/Projects-master/Jeremy Project/Jeremy Assets/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/owner/Documents/GitHub/Unity-Projects-jon/Jeremy Project/Jeremy Assets/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/MathCSLab3/Desktop/Projects-master/Projects-master/Jeremy Project/Jeremy Assets/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/owner/Documents/GitHub/Unity-Projects-jon/Jeremy Project/Jeremy Assets/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Users/MathCSLab3/Desktop/Projects-master/Projects-master/Jeremy Project/Jeremy Assets/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <HintPath>C:/Users/owner/Documents/GitHub/Unity-Projects-jon/Jeremy Project/Jeremy Assets/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>C:/Users/MathCSLab3/Desktop/Projects-master/Projects-master/Jeremy Project/Jeremy Assets/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ <HintPath>C:/Users/owner/Documents/GitHub/Unity-Projects-jon/Jeremy Project/Jeremy Assets/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
  <Reference Include="UnityVS.VersionSpecific">
- <HintPath>C:/Users/MathCSLab3/Desktop/Projects-master/Projects-master/Jeremy Project/Jeremy Assets/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ <HintPath>C:/Users/owner/Documents/GitHub/Unity-Projects-jon/Jeremy Project/Jeremy Assets/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -143,6 +143,8 @@
       <Project>{E25E6383-DDD9-42FC-746C-811649C2878E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{F07AACFB-0EBF-CF17-C904-8EDCA584C2B5}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{F3BB63B2-2939-0078-4433-1308A9857CF8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
       <Project>{C158470D-0204-8468-7146-E57081A9C479}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>

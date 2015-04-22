@@ -9,6 +9,7 @@ public class ReceptorLegProperties : MonoBehaviour {
 	public bool allowMovement = true;
 	public bool isActive = true;
 	public Color NonActiveColor = Color.gray;
+
 	
 	#endregion Public Fields + Properties + Events + Delegates + Enums
 	
@@ -60,6 +61,7 @@ public class ReceptorLegProperties : MonoBehaviour {
 					child.GetComponent<Renderer>().material.color = NonActiveColor;
 				}
 			}
+			this.GetComponent<ReceptorLegScript>().enabled = false;
 		}
 		if (this.isActive == true) {
 			this.allowMovement = true;
@@ -70,7 +72,10 @@ public class ReceptorLegProperties : MonoBehaviour {
 					child.GetComponent<Renderer>().material.color = ActiveColor;
 				}
 			}
+			this.GetComponent<ReceptorLegScript>().enabled = true;
 		}
+
+
 	}
 	
 	#endregion Private Methods

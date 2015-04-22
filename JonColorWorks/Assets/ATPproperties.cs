@@ -54,7 +54,7 @@ public class ATPproperties : MonoBehaviour {
 		Debug.Log("I made it here!!");
 		spin = true;
 		rotation = transform.rotation * Quaternion.AngleAxis( 180, Vector3.back ); 
-
+		this.gameObject.GetComponent<ATPpathfinding> ().droppedOff = true;
 	}
 	#endregion Public Methods
 	
